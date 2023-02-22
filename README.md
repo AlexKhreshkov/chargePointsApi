@@ -2,6 +2,9 @@
 
 ### application.properties
 ```bash
+app.version=v.1.0
+app.dbversion=v.1.0
+
 spring.h2.console.enabled=true
 spring.datasource.url=jdbc:h2:mem:electric_vehicles_db
 spring.datasource.driverClassName=org.h2.Driver
