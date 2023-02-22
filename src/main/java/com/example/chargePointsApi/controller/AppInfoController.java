@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/app-info/")
 public class AppInfoController {
     @Autowired
     @Value("${app.version}")
@@ -16,7 +16,7 @@ public class AppInfoController {
     @Value("${app.dbversion}")
     private String appDbVersion;
 
-    @GetMapping("app-info")
+    @GetMapping
     public Map<String, String> getAppVersion() {
         HashMap<String, String> response = new HashMap<>();
         response.put("appVersion", appVersion);
