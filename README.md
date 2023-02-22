@@ -1,5 +1,9 @@
 # Charge-Points-api
 
+### Database diagram
+![image](https://user-images.githubusercontent.com/102662863/220786393-489162bd-8d9c-4905-bb85-6c30d6d20610.png)
+
+
 ### application.properties
 ```bash
 app.version=v.1.0
